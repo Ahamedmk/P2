@@ -55,6 +55,7 @@ header nav ul{
 header nav li a{
     padding-top: 30px;
     display: block;
+    border-top: 2px solid transparent;
 }
 
  li{
@@ -372,7 +373,7 @@ h4 {
     }
 
     .filtre{
-        margin: 10px 20px 0 0;
+        margin: 10px 10px 0 0;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -395,7 +396,7 @@ h4 {
         justify-content: center;
         align-items: center;
         font-size: 20px;
-        margin-left: -10px;
+        margin-left: -3px;
     }
 
     #info{
@@ -472,10 +473,12 @@ aside {
 .heber {
     width: 240px;
     background-color: white;
-    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17);
+    /* box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17); */
+    box-shadow: 1px 6px 8px var(--color-lightgrey);
     border-radius: 20px;
     padding: 5px;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 
 .card-image {
@@ -537,7 +540,8 @@ aside {
     /* border: 2px solid greenyellow; */
     background-color: white;
     width: 370px;
-    box-shadow: 0px 5px 20px #999;
+    /* box-shadow: 0px 5px 20px #999; */
+    box-shadow: 1px 6px 8px var(--color-lightgrey);
     border-radius: 20px;
     padding: 5px;
     margin-bottom: 25px;
@@ -675,7 +679,8 @@ aside {
     /* border: 1px solid red; */
     border-radius: 15px;
     height: 410px;
-    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17);
+    /* box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17); */
+    box-shadow: 1px 6px 8px var(--color-lightgrey);
 
 }
 
@@ -723,7 +728,8 @@ h2.act-marseille {
     height: 180px;
     /* border: 1px solid black; */
     border-radius: 15px;
-    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17);
+    /* box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17); */
+    box-shadow: 1px 6px 8px var(--color-lightgrey);
 }
 .card-image-vue {
     height: 130px;
@@ -747,13 +753,15 @@ h2.act-marseille {
     margin-bottom: 20px;
     /* border: 1px solid black; */
     border-radius: 15px;
-    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17);
+    /* box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17); */
+    box-shadow: 1px 6px 8px var(--color-lightgrey);
 }
 #fusion-ile {
     height: 150px;
     /* border: 1px solid black; */
     border-radius: 15px;
-    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17);
+    /* box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17); */
+    box-shadow: 1px 6px 8px var(--color-lightgrey);
 }
 .card-image-port {
     height: 200px;
@@ -798,6 +806,7 @@ h5 {
     .activity {
         flex-direction: column;
         width: 100%;
+        padding-bottom: 0px;
     }
     .final-list {
         width: 260px;
@@ -820,6 +829,7 @@ h5 {
         height: 115px;
     }
     .mars-card {
+        display: block;
         width: 100%;
         margin-bottom: 20px;
     }
@@ -827,7 +837,11 @@ h5 {
         height: 115px;
     }
     .fusion {
+        margin-bottom: 20px;
         height: 175px;
+    }
+    #fort {
+        height: 370px;
     }
     #fusion-port {
         height: 175px;
@@ -866,5 +880,7 @@ li {
     .footer {
         display: flex;
         flex-direction: column;
+        padding: 30px 20px;
     }
 }
+
