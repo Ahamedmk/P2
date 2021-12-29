@@ -836,6 +836,9 @@ h5 {
     .card-image-port {
         height: 115px;
     }
+    .fa-chart-line {
+        font-size: 25px;
+    }
     .fusion {
         margin-bottom: 20px;
         height: 175px;
