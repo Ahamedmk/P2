@@ -689,8 +689,9 @@
          font-size: 22px;
      }
 
-     H4 {
+     h4 {
          font-size: 18px;
+         padding: 10px 0;
      }
 
      .heber {
@@ -725,7 +726,7 @@
  /* ----------------------------activité marseillle---------------------- */
 
  .mars {
-     min-width: 320px;
+     min-width: 280px;
      /* border: 1px solid red; */
      border-radius: 15px;
      height: 410px;
@@ -770,7 +771,7 @@
      display: flex;
      flex-direction: column;
      justify-content: space-between;
-     min-width: 320px;
+     min-width:     280px;
      /* border: 1px solid red; */
      border-radius: 15px;
      height: 410px;
@@ -794,9 +795,9 @@
  .card-image-vue img {
      width: 100%;
      position: absolute;
-     top: 50%;
+     /* top: 50%;
      left: 50%;
-     transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%); */
      object-fit: cover;
      /* padding: 5px; */
      border-radius: 10px;
@@ -885,21 +886,22 @@
      .mars {
          width: 100%;
          margin-bottom: 20px;
-         height: 175px;
+         height: 100%;
      }
 
      .card-image-mars {
-         height: 115px;
+         height: 130px;
      }
 
      .mars-card {
          display: block;
+         height: 100%;
          width: 100%;
          margin-bottom: 20px;
      }
 
      .card-image-port {
-         height: 115px;
+         height: 130px;
      }
 
      .fa-chart-line {
@@ -908,23 +910,23 @@
 
      .fusion {
          margin-bottom: 20px;
-         height: 175px;
+         height: 100%;
      }
 
-     #fort {
+     /* #fort {
          height: 370px;
-     }
+     } */
 
      #fusion-port {
-         height: 175px;
+         height: 100%;
      }
 
      #fusion-ile {
-         height: 175px;
+         height: 100%;
      }
 
      .card-image-ile {
-         height: 115px;
+         height: 130px;
      }
  }
 
