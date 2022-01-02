@@ -206,7 +206,7 @@
 
  /*================MEDIA===================*/
 
- @media only all and (max-width: 767px) {
+ @media only all and (max-width: 456px) {
 
 
      #title {
@@ -232,7 +232,7 @@
      }
 
      .input {
-         width: 75vw;
+         width: 66vw;
          height: 50px;
          font-weight: bold;
          font-size: 1em;
@@ -879,9 +879,11 @@
  @media all and (max-width: 900px) { 
     .mars-card {
         width: 48%;
+        margin-bottom: 20px;
     }
     .mars {
         width: 48%;
+        margin-bottom: 20px;
     }   
  }
  @media all and (max-width: 600px) {
