@@ -86,6 +86,7 @@
 
  h4 {
      font-size: 18px;
+     padding-bottom: 5px;
      /* width: 200px; */
  }
 
@@ -115,6 +116,7 @@
 
      h1 {
          font-size: 22px;
+         padding-bottom: 5px;
      }
 
      header {
@@ -514,13 +516,19 @@
  }
 
  .card-image {
-     height: 100px;
-     /* position: relative; */
-     overflow: hidden;
+     /* height: 100px; */
+     position: relative;
+     padding-top: calc(23%/65*100);
+     /* overflow: hidden; */
      border-radius: 15px 15px 0 0;
  }
 
  .card-image img {
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
      width: 100%;
      height: 100%;
      /* position: absolute;
@@ -529,7 +537,7 @@
     transform: translate(-50%, -50%); */
      object-fit: cover;
      /* padding: 5px; */
-     border-radius: 10px 10px 0 0;
+     border-radius: 15px 15px 0 0;
  }
 
  .star {
@@ -588,18 +596,26 @@
  }
 
  .card-image-pop {
-     height: 140px;
-
-     /* position: relative; */
-     overflow: hidden;
+     height: 130px;
+     position: relative;
+     padding-left: calc(23%/65*100);
+     /* overflow: hidden; */
      border-radius: 15px 0 0 15px;
  }
 
  .card-image-pop img {
-     width: 140px;
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     /* width: 140px;
      height: 140px;
-     padding-top: 0px;
+     padding-top: 0px; */
      object-fit: cover;
+     border-radius: 15px 0 0 15px;
  }
 
  .card-body-pop {
@@ -657,6 +673,8 @@
      /* .heber {
          margin-left: 50px;
      } */
+
+     
 
  }
  @media all and (max-width: 827px) {
@@ -753,19 +771,14 @@
 
  }
 
-
  /* ----------------------------activité marseillle---------------------- */
-
  .mars {
      width: 23%;
-     /* border: 1px solid red; */
      border-radius: 15px;
      height: 450px;
-     /* box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17); */
      box-shadow: 1px 6px 8px var(--color-lightgrey);
-
  }
-
+ 
  h2.act-marseille {
      padding-top: 50px;
      padding-bottom: 20px;
@@ -781,7 +794,6 @@
 
  .card-image-mars {
      height: 400px;
-     /* position: relative; */
      overflow: hidden;
      border-radius: 15px 15px 0 0;
  }
@@ -789,11 +801,6 @@
  .card-image-mars img {
      width: 100%;
      height: 100%;
-     /* padding-top: 0; */
-     /* position: absolute; */
-     /* top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%); */
      object-fit: cover;
      border-radius: 10px 10px 0 0;
  }
@@ -803,22 +810,18 @@
      flex-direction: column;
      justify-content: space-between;
      width:23%;
-     /* border: 1px solid red; */
      border-radius: 15px;
      height: 450px;
  }
 
  .fusion {
      height: 45%;
-     /* border: 1px solid black; */
      border-radius: 15px;
-     /* box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17); */
      box-shadow: 1px 6px 8px var(--color-lightgrey);
  }
 
  .card-image-vue {
      height: 151px;
-     /* position: relative; */
      overflow: hidden;
      border-radius: 15px 15px 0 0;
  }
@@ -826,35 +829,25 @@
  .card-image-vue img {
      height: 100%;
      width: 100%;
-     /* position: absolute; */
-     /* top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%); */
      object-fit: cover;
-     /* padding: 5px; */
      border-radius: 10px 10px 0 0;
  }
 
  #fusion-port {
      height: 55%;
      margin-bottom: 20px;
-     /* border: 1px solid black; */
      border-radius: 15px;
-     /* box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17); */
      box-shadow: 1px 6px 8px var(--color-lightgrey);
  }
 
  #fusion-ile {
      height: 35%;
-     /* border: 1px solid black; */
      border-radius: 15px;
-     /* box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.17); */
      box-shadow: 1px 6px 8px var(--color-lightgrey);
  }
 
  .card-image-port {
      height: 200px;
-     /* position: relative; */
      overflow: hidden;
      border-radius: 15px 15px 0 0;
  }
@@ -862,18 +855,12 @@
  .card-image-port img {
      width: 100%;
      height: 100%;
-     /* position: absolute; */
-     /* top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%); */
      object-fit: cover;
-     /* padding: 5px; */
      border-radius: 15px 15px 0 0;
  }
 
  .card-image-ile {
      height: 109px;
-     /* position: relative; */
      overflow: hidden;
      border-radius: 15px 15px 0 0;
  }
@@ -881,13 +868,7 @@
  .card-image-ile img {
      height: 100%;
      width: 100%;
-     /* position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);*/
      object-fit: cover; 
-     /* bottom: -79px; */
-     /* padding: 5px; */
      border-radius: 10px 10px 0 0;
  }
 
@@ -918,7 +899,6 @@
      .final-list {
          width: 260px;
          font-size: 18px;
-         /* font-weight: 500; */
      }
 
      .final {
@@ -959,10 +939,6 @@
          margin-bottom: 20px;
          height: 100%;
      }
-
-     /* #fort {
-         height: 370px;
-     } */
 
      #fusion-port {
          height: 100%;
