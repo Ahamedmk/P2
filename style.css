@@ -1,5 +1,4 @@
- *, ::before, ::after {
-
+ *, ::before, ::after{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
@@ -853,6 +852,15 @@
      height: 450px;
  }
 
+ .clic-act-marseille {
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+ }
+
+ .clic-act-marseille:hover {
+    transform: scale(1.1);
+}
+
  .fusion {
      height: 45%;
      border-radius: 15px;
@@ -924,6 +932,9 @@
         width: 48%;
         margin-bottom: 20px;
     }   
+    .clic-act-marseille:hover {
+        transform: none;
+    }
  }
  @media all and (max-width: 600px) {
     .card-image-vue img {
