@@ -149,6 +149,11 @@
          border-bottom: 2px solid #0065FC;
      }
 
+     header nav li a {
+        border-bottom: 2px solid transparent;
+        border-top:none;
+     }
+
      header nav li a:hover {
          color: var(--color-blue);
      }
