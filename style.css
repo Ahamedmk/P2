@@ -4,9 +4,12 @@
      box-sizing: border-box;
  }
 
+ * {
+    font-family: 'Raleway', sans-serif; 
+ }
+
  body {
-     font-size: 16px;
-     font-family: 'Raleway', sans-serif;
+     font-size: 16px;   
  }
 
  :root {
@@ -40,12 +43,16 @@
      flex-wrap: wrap;
  }
 
+ #head {
+    padding-bottom: 30px;
+ }
+
  header #logo-container a:hover {
      text-decoration: none;
  }
 
  .logo {
-     width: 65px;
+     width: 100px;
      padding-top: 30px;
  }
 
@@ -278,8 +285,6 @@
      }
 
  }
-
-
  /* --------------------filtre-------------------- */
  #filtres {
      display: flex;
@@ -439,11 +444,11 @@
 
  }
 
- section {
+ /* section {
      display: flex;
      gap: 20px;
      margin: 10px;
- }
+ } */
 
  main {
      flex-basis: 66%;
@@ -606,10 +611,10 @@
  }
 
  @media all and (max-width: 1200px) {
-     section {
+     /* section {
          flex-direction: column-reverse;
 
-     }
+     } */
 
      main {
          flex-basis: auto;
