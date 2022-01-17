@@ -84,6 +84,7 @@
 
  h1 {
      font-size: 22px;
+     padding-bottom: 5px;
  }
 
  h4 {
@@ -191,7 +192,7 @@
  }
 
  .input {
-     width: 240px;
+     width: 210px;
      height: 40px;
      font-weight: bold;
      padding-left: 20px;
@@ -199,7 +200,7 @@
  }
 
  input::placeholder {
-     color: var(--color-black);
+     color: black;
  }
 
  .search {
