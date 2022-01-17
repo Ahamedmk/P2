@@ -15,7 +15,6 @@
  :root {
      --color-grey: #c2c1c1;
      --color-blue: #0065FC;
-     --color-pink: #d43c61;
      --color-black: #383b43;
      --color-lightgrey: #F2F2F2;
      --color-lightblue: #DEEBFF;
@@ -95,7 +94,7 @@
  /*================MEDIA===================*/
 
 
- @media only all and (max-width: 600px) {
+ @media only all and (max-width: 768px) {
 
      .logo {
          padding-top: 20px;
@@ -199,6 +198,10 @@
      border: 1px solid var(--color-lightgrey);
  }
 
+ input::placeholder {
+     color: var(--color-black);
+ }
+
  .search {
      height: 40px;
      display: flex;
@@ -219,9 +222,8 @@
 
  /*================MEDIA===================*/
 
- @media only all and (max-width: 600px) {
-
-
+ @media only all and (max-width: 768px) {
+     
      #title {
          font-size: 1px;
          padding: 10px 0 20px 0;
@@ -230,13 +232,11 @@
 
      #titre h1 {
          display: flex;
-         /* font-size: 1.2em; */
          font-weight: bold;
          padding: 0;
      }
 
      #titre p {
-         /* font-size: 0.9em; */
          padding: 10px 0 20px 0;
      }
 
@@ -567,6 +567,7 @@
      display: flex;
      background-color: white;
      width: 87%;
+    
      box-shadow: 1px 6px 8px var(--color-lightgrey);
      border-radius: 20px;
      padding: 5px;
@@ -615,7 +616,16 @@
      font-size: 12px;
  }
 
- @media all and (max-width: 1200px) {
+ @media all and (max-width: 1238px) and (min-width: 992px) {
+     .card-body h4 {
+         font-size: 13px;
+     }
+     .h2-aside {
+         font-size: 20px;
+     }
+ }
+
+ @media all and (max-width: 992px){
      /* section {
          flex-direction: column-reverse;
 
@@ -677,7 +687,7 @@
      }
 
  }
-
+/* 
  @media all and (max-width: 636px) {
      .card-body-description p {
          font-size: 12px;
@@ -686,9 +696,9 @@
      .card-body-description h4 {
          font-size: 14px;
      }
- }
+ } */
 
- @media all and (max-width: 600px) {
+ @media all and (max-width: 768px) {
      main {
          width: 100%;
          flex-basis: auto;
@@ -748,9 +758,9 @@
          padding-top: 30px;
      }
 
-     .pop-chart {
+     /* .pop-chart {
          padding: 20px 15px 0 15px;
-     }
+     } */
 
      .heber-pop {
          width: 100%;
@@ -893,7 +903,7 @@
      }
  }
 
- @media all and (max-width: 600px) {
+ @media all and (max-width: 768px) {
      .card-image-vue img {
          bottom: -100px;
      }
