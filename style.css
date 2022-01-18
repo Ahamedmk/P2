@@ -619,12 +619,17 @@
      }
  }
 
+ @media all and (min-width: 992px) and (max-width: 1110px) {
+    .card-body-description h4 {
+        font-size: 15px;
+    }
+
+    .card-body-description p {
+        font-size: 14px;
+    }
+ }
+
  @media all and (max-width: 992px){
-     /* section {
-         flex-direction: column-reverse;
-
-     } */
-
      main {
          flex-basis: auto;
          background-color: transparent;
@@ -656,14 +661,6 @@
  }
 
  @media all and (max-width: 900px) {
-     .card-body-description h4 {
-         font-size: 15px;
-     }
-
-     .card-body-description p {
-         font-size: 14px;
-     }
-
      .heber:hover {
          transform: none;
      }
