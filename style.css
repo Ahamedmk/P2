@@ -375,7 +375,7 @@
      }
  }
 
- @media only all and (max-width: 475px) {
+ @media only all and (max-width: 768px) {
 
      #filtres {
          width: 100%;
@@ -610,25 +610,6 @@
      font-size: 12px;
  }
 
- @media all and (min-width: 992px) and (max-width: 1238px) {
-     .card-body h4 {
-         font-size: 13px;
-     }
-     .h2-aside {
-         font-size: 20px;
-     }
- }
-
- @media all and (min-width: 992px) and (max-width: 1110px) {
-    .card-body-description h4 {
-        font-size: 15px;
-    }
-
-    .card-body-description p {
-        font-size: 14px;
-    }
- }
-
  @media all and (max-width: 992px){
      main {
          flex-basis: auto;
@@ -656,29 +637,9 @@
 
      .card-image-pop img {
          border-radius: 15px 15px 0 0;
-     }
-
+     }  
  }
 
- @media all and (max-width: 900px) {
-     .heber:hover {
-         transform: none;
-     }
-
-     .heber {
-         width: 48%;
-     }
-
-     .aside {
-         flex-wrap: wrap;
-     }
-
-     .heber-pop {
-         width: 30%;
-     }
-
- }
- 
  @media all and (max-width: 768px) {
      main {
          width: 100%;
@@ -731,6 +692,7 @@
 
      .aside {
          padding-bottom: 25px;
+         flex-direction: column;
      }
 
      .heber-marseille {
@@ -738,10 +700,6 @@
          margin-left: 20px;
          padding-top: 30px;
      }
-
-     /* .pop-chart {
-         padding: 20px 15px 0 15px;
-     } */
 
      .heber-pop {
          width: 100%;
@@ -868,22 +826,6 @@
      font-size: 18px;
  }
 
- @media all and (max-width: 900px) {
-     .mars-card {
-         width: 48%;
-         margin-bottom: 20px;
-     }
-
-     .mars {
-         width: 48%;
-         margin-bottom: 20px;
-     }
-
-     .clic-act-marseille:hover {
-         transform: none;
-     }
- }
-
  @media all and (max-width: 768px) {
      .card-image-vue img {
          bottom: -100px;
@@ -954,6 +896,10 @@
      h2.act-marseille {
          padding-top: 15px;
      }
+     .clic-act-marseille:hover {
+        transform: none;
+     }
+     
  }
 
  footer {
@@ -982,7 +928,7 @@
      padding-bottom: 13px;
  }
 
- @media all and (max-width: 804px) {
+  @media all and (max-width: 768px) {
      .footer {
          display: flex;
          flex-direction: column;
@@ -993,5 +939,11 @@
          padding-bottom: 10px;
          width: 100%;
      }
+     .heber:hover {
+        transform: none;
+    }
+    .clic-act-marseille:hover {
+        transform: none;
+    }
 
- }
+ }  
