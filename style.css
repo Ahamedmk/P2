@@ -284,13 +284,6 @@
 
  }
 
- @media only all and (max-width: 350px) {
-
-     #rechercher {
-         right: 20px;
-     }
-
- }
  /* --------------------filtre-------------------- */
  #filtres {
      display: flex;
