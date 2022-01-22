@@ -894,7 +894,7 @@
      }
      
  }
-
+/* ----------------------footer----------------------------- */
  footer {
      background-color: var(--color-lightgrey);
      width: 100%;
@@ -903,18 +903,12 @@
 
  .footer {
      display: flex;
-     justify-content: flex-start;
      padding: 50px;
  }
 
  .final {
      width: 33%;
 
- }
-
- .list {
-     display: flex;
-     flex-direction: column;
  }
 
  li {
