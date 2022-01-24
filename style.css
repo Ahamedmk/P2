@@ -280,7 +280,7 @@
      }
 
      #search-mobile {
-         display: flex;
+         display: block;
      }
 
  }
